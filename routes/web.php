@@ -7,9 +7,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/halo', function () {
-    return view('halo');
-});
+Route::get('/dashboard', [AppController::class, "dashboard"]);
+
+Route::get('/halo', [AppController::class, "halo"]);
 
 Route::get("/profil", [AppController::class, "profil"]);
 

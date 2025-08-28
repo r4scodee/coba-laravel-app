@@ -10,7 +10,15 @@ class AppController extends Controller
         return view("profil");
     }
 
+    public function halo(){
+        return view("halo");
+    }
+
     public function kontak(){
         return view("kontak");
+    }
+
+    public function dashboard(){
+        return view("dashboard");
     }
 }
