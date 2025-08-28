@@ -7,6 +7,10 @@ use Illuminate\Http\Request;
 class AppController extends Controller
 {
     public function profil(){
-        echo "halo, profil";
+        return view("profil");
+    }
+
+    public function kontak(){
+        return view("kontak");
     }
 }
