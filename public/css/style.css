@@ -46,9 +46,3 @@
         nav a:hover {
             color: var(--soft-blue-dark);
         }
-
-        div {
-            padding: 40px;
-            text-align: center;
-            font-size: 1.5em;
-        }

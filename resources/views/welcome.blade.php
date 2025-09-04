@@ -90,7 +90,7 @@
                             </span>
                             <span>
                                 Login into Admin
-                                <a href="/dashboard" class="inline-flex items-center space-x-1 font-medium underline underline-offset-4 text-[#f53003] dark:text-[#FF4433] ml-1">
+                                <a href="{{ url("/dashboard") }}" class="inline-flex items-center space-x-1 font-medium underline underline-offset-4 text-[#f53003] dark:text-[#FF4433] ml-1">
                                     <span>Dashboard</span>
                                     <svg
                                         width="10"
