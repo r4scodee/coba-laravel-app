@@ -39,20 +39,6 @@
     </div>
   </div>
 </nav>
-
-
-    {{-- <header>
-        <h1>Beranda</h1>
-        <nav>
-            <ul>
-                <li><a href="{{ url("/") }}">Welcome</a></li>
-                <li><a href="{{ url("/halo") }}">Beranda</a></li>
-                <li><a href="{{ url("/profil") }}">Profil</a></li>
-                <li><a href="{{ url("/kontak") }}">Kontak</a></li>
-            </ul>
-        </nav>
-    </header> --}}
-
     <main>
         @yield('content')
     </main>
